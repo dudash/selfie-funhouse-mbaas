@@ -14,7 +14,10 @@ It's node.js - and it REQUIRES Red Hat's Mobile Application Platform or FeedHenr
 * Edit the default cloud service in RHMAP
   * Add this file to the `lib` folder
   * Add ```require('./lib/handleforms');``` to your `application.js`
-  * Change source code so the S3 bucket name to matches your bucket (or set the service's ENV VAR)
+  * In RHMAP set the required env vars
+   * AWS_ACCESS_KEY_ID
+   * AWS_SECRET_ACCESS_KEY
+   * AWS_BUCKET
 * Deploy everything and run
 
 ** NOTE: for the full system you will also have to stand up AWS S3 to accept the outbound photos, the lambda service, and the pattern fly website
