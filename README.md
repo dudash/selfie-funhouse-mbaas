@@ -20,4 +20,4 @@ It's node.js - and it REQUIRES Red Hat's Mobile Application Platform or FeedHenr
    * AWS_BUCKET
 * Deploy everything and run
 
-** NOTE: for the full system you will also have to stand up AWS S3 to accept the outbound photos, the lambda service, and the pattern fly website
+** NOTE: for the full system you will also have to stand up your own AWS S3 bucket to accept the outbound photos, the [lambda service](https://github.com/dudash/selfie-funhouse-cv) in your AWS account, and run the [web app](https://github.com/dudash/selfie-funhouse-webapp).
